@@ -11,7 +11,7 @@ The user can select: car color, type of obstacle, speed
 `git clone `
 2. Open this repo in terminal
 3. Print `pod install`
-4. Open Race_Game.xcworkspace
+4. Open Race_Game.xcworkspace in Xcode
 
 ## Preview
 ### Onboarding Screen
