@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  Race_Game
+
+  Created by Nikita Pishchugin on 11.08.2022.
+  
+*/
+
+"recordsButtonKey" = "Records";
+"settingsButtonKey" = "Settings";
+"raceButtonKey" = "Start";
+
+"scoreLabelKey" = "Total score";
+"scoreLabelTotalKey" = "Total";
+"scoreLabelScoreKey" = "score";
+
+"alertMessageKey" = "Enter your name";
+"alertSubmitKey" = "Submit";
+"alertCancelKey" = "Cancel";
+
+"carColorButtonLabelKey" = "Car color";
+"barrierButtonLabelKey" = "Barrier";
+"speedButtonLabelKey" = "Speed";
+
+"defaultWordKey" = "Default";
+
+"carColorButtonAlertMessageKey" = "Choose car color";
+"carColorButtonAlertFirstActionKey" = "Default";
+"carColorButtonAlertSecondActionKey" = "Red";
+"carColorButtonAlertThirdActionKey" = "Blue";
+
+"barrierButtonAlertMessageKey" = "Choose barrier";
+"barrierButtonAlertFirstActionKey" = "Default";
+"barrierButtonAlertSecondActionKey" = "Barrier";
+
+"speedButtonAlertMessageKey" = "Choose speed";
+"speedButtonAlertFirstActionKey" = "Default";
+"speedButtonAlertSecondActionKey" = "Slower";

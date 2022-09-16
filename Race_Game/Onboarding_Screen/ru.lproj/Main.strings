@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; configuration.title = "Race"; ObjectID = "j65-dX-FLc"; */
+"j65-dX-FLc.configuration.title" = "Race";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "j65-dX-FLc"; */
+"j65-dX-FLc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Score"; ObjectID = "m6x-54-ksp"; */
+"m6x-54-ksp.text" = "Score";

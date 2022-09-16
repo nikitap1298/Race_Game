@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D14CC182859EE6C003133CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14CC172859EE6C003133CE /* AppDelegate.swift */; };
+		6D14CC1A2859EE6C003133CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14CC192859EE6C003133CE /* SceneDelegate.swift */; };
+		6D14CC1C2859EE6C003133CE /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14CC1B2859EE6C003133CE /* OnboardingViewController.swift */; };
+		6D14CC1F2859EE6C003133CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D14CC1D2859EE6C003133CE /* Main.storyboard */; };
+		6D14CC212859EE6D003133CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D14CC202859EE6D003133CE /* Assets.xcassets */; };
+		6D14CC242859EE6D003133CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D14CC222859EE6D003133CE /* LaunchScreen.storyboard */; };
+		6D14CC2D2859EF37003133CE /* Race.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D14CC2C2859EF37003133CE /* Race.storyboard */; };
+		6D14CC2F2859EF49003133CE /* Records.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D14CC2E2859EF49003133CE /* Records.storyboard */; };
+		6D14CC312859EF52003133CE /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D14CC302859EF52003133CE /* Settings.storyboard */; };
+		6D14CC342859EFE2003133CE /* RaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14CC332859EFE2003133CE /* RaceViewController.swift */; };
+		6D14CC362859EFF0003133CE /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14CC352859EFF0003133CE /* RecordsViewController.swift */; };
+		6D14CC382859EFFB003133CE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14CC372859EFFB003133CE /* SettingsViewController.swift */; };
+		6D216BB428A5136900D04DCF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D216BB628A5136900D04DCF /* Localizable.strings */; };
+		6D3BF407287CC00D00A3F819 /* AllSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BF406287CC00D00A3F819 /* AllSettings.swift */; };
+		6D685ACD2864756700565726 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D685AC42864756700565726 /* Merriweather-Bold.ttf */; };
+		6D685ACE2864756700565726 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D685AC52864756700565726 /* Merriweather-Regular.ttf */; };
+		6D685ACF2864756700565726 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D685AC62864756700565726 /* Merriweather-Light.ttf */; };
+		6D685AD02864756700565726 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D685AC72864756700565726 /* Merriweather-BoldItalic.ttf */; };
+		6D685AD12864756700565726 /* Merriweather-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D685AC82864756700565726 /* Merriweather-BlackItalic.ttf */; };
+		6D685AD22864756700565726 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6D685AC92864756700565726 /* OFL.txt */; };
+		6D685AD32864756700565726 /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D685ACA2864756700565726 /* Merriweather-Italic.ttf */; };
+		6D685AD42864756700565726 /* Merriweather-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D685ACB2864756700565726 /* Merriweather-Black.ttf */; };
+		6D685AD52864756700565726 /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D685ACC2864756700565726 /* Merriweather-LightItalic.ttf */; };
+		6D6DA37D287DB14F009A82FB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6DA37C287DB14F009A82FB /* User.swift */; };
+		6D92D6CB28B40C8D00F9C618 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D92D6CA28B40C8D00F9C618 /* GoogleService-Info.plist */; };
+		6DF4D9C628D0770600F7FD4C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4D9C528D0770600F7FD4C /* ViewModel.swift */; };
+		6DF4D9C828D07D9C00F7FD4C /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF4D9C728D07D9C00F7FD4C /* CustomCell.xib */; };
+		6DF4D9CA28D07DCA00F7FD4C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4D9C928D07DCA00F7FD4C /* CustomCell.swift */; };
+		6DFEA0DE287F18DB00389284 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEA0DD287F18DB00389284 /* Constants.swift */; };
+		DFB367DB1B6B5C0C0D2DDBD8 /* Pods_Race_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D205C77E8EC207D36DAB669C /* Pods_Race_Game.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19F758927210E754A802CBE5 /* Pods-Race_Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Race_Game.debug.xcconfig"; path = "Target Support Files/Pods-Race_Game/Pods-Race_Game.debug.xcconfig"; sourceTree = "<group>"; };
+		6D14CC142859EE6C003133CE /* Race_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Race_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D14CC172859EE6C003133CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D14CC192859EE6C003133CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D14CC1B2859EE6C003133CE /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		6D14CC1E2859EE6C003133CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D14CC202859EE6D003133CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D14CC232859EE6D003133CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D14CC252859EE6D003133CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D14CC2C2859EF37003133CE /* Race.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Race.storyboard; sourceTree = "<group>"; };
+		6D14CC2E2859EF49003133CE /* Records.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Records.storyboard; sourceTree = "<group>"; };
+		6D14CC302859EF52003133CE /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		6D14CC332859EFE2003133CE /* RaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceViewController.swift; sourceTree = "<group>"; };
+		6D14CC352859EFF0003133CE /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		6D14CC372859EFFB003133CE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6D216BB028A5135400D04DCF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		6D216BB128A5135400D04DCF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6D216BB528A5136900D04DCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D216BB728A5136C00D04DCF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6D3BF406287CC00D00A3F819 /* AllSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSettings.swift; sourceTree = "<group>"; };
+		6D685AC42864756700565726 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		6D685AC52864756700565726 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		6D685AC62864756700565726 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		6D685AC72864756700565726 /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6D685AC82864756700565726 /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6D685AC92864756700565726 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		6D685ACA2864756700565726 /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
+		6D685ACB2864756700565726 /* Merriweather-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Black.ttf"; sourceTree = "<group>"; };
+		6D685ACC2864756700565726 /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
+		6D6DA37C287DB14F009A82FB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6D92D6CA28B40C8D00F9C618 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6DF4D9C528D0770600F7FD4C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6DF4D9C728D07D9C00F7FD4C /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		6DF4D9C928D07DCA00F7FD4C /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		6DFEA0DD287F18DB00389284 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D205C77E8EC207D36DAB669C /* Pods_Race_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Race_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB10B7E05D84C9D1025A8E42 /* Pods-Race_Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Race_Game.release.xcconfig"; path = "Target Support Files/Pods-Race_Game/Pods-Race_Game.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D14CC112859EE6C003133CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB367DB1B6B5C0C0D2DDBD8 /* Pods_Race_Game.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A7B43D86DDA34304A1AFDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F758927210E754A802CBE5 /* Pods-Race_Game.debug.xcconfig */,
+				FB10B7E05D84C9D1025A8E42 /* Pods-Race_Game.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D14CC0B2859EE6C003133CE = {
+			isa = PBXGroup;
+			children = (
+				6D14CC162859EE6C003133CE /* Race_Game */,
+				6D14CC152859EE6C003133CE /* Products */,
+				09A7B43D86DDA34304A1AFDC /* Pods */,
+				850290BAF5579988E21C70A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D14CC152859EE6C003133CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D14CC142859EE6C003133CE /* Race_Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D14CC162859EE6C003133CE /* Race_Game */ = {
+			isa = PBXGroup;
+			children = (
+				6D14CC172859EE6C003133CE /* AppDelegate.swift */,
+				6D14CC192859EE6C003133CE /* SceneDelegate.swift */,
+				6D685AD62864756C00565726 /* Fonts */,
+				6D3BF408287CC01400A3F819 /* Model */,
+				6D14CC2B2859EF1D003133CE /* Onboarding_Screen */,
+				6DF4D9CE28D0888400F7FD4C /* Race_Screen */,
+				6DF4D9CD28D0886A00F7FD4C /* Settings_Screen */,
+				6DF4D9CB28D0880100F7FD4C /* Records_Screen */,
+				6D14CC202859EE6D003133CE /* Assets.xcassets */,
+				6D14CC222859EE6D003133CE /* LaunchScreen.storyboard */,
+				6D14CC252859EE6D003133CE /* Info.plist */,
+				6D92D6CA28B40C8D00F9C618 /* GoogleService-Info.plist */,
+				6DFEA0DD287F18DB00389284 /* Constants.swift */,
+				6D216BB628A5136900D04DCF /* Localizable.strings */,
+			);
+			path = Race_Game;
+			sourceTree = "<group>";
+		};
+		6D14CC2B2859EF1D003133CE /* Onboarding_Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6D14CC1B2859EE6C003133CE /* OnboardingViewController.swift */,
+				6D14CC1D2859EE6C003133CE /* Main.storyboard */,
+			);
+			path = Onboarding_Screen;
+			sourceTree = "<group>";
+		};
+		6D3BF408287CC01400A3F819 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D3BF406287CC00D00A3F819 /* AllSettings.swift */,
+				6D6DA37C287DB14F009A82FB /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D685AC32864756700565726 /* Merriweather */ = {
+			isa = PBXGroup;
+			children = (
+				6D685AC42864756700565726 /* Merriweather-Bold.ttf */,
+				6D685AC52864756700565726 /* Merriweather-Regular.ttf */,
+				6D685AC62864756700565726 /* Merriweather-Light.ttf */,
+				6D685AC72864756700565726 /* Merriweather-BoldItalic.ttf */,
+				6D685AC82864756700565726 /* Merriweather-BlackItalic.ttf */,
+				6D685AC92864756700565726 /* OFL.txt */,
+				6D685ACA2864756700565726 /* Merriweather-Italic.ttf */,
+				6D685ACB2864756700565726 /* Merriweather-Black.ttf */,
+				6D685ACC2864756700565726 /* Merriweather-LightItalic.ttf */,
+			);
+			path = Merriweather;
+			sourceTree = "<group>";
+		};
+		6D685AD62864756C00565726 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6D685AC32864756700565726 /* Merriweather */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6DF4D9CB28D0880100F7FD4C /* Records_Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6DF4D9CC28D0882B00F7FD4C /* ViewModel */,
+				6D14CC352859EFF0003133CE /* RecordsViewController.swift */,
+				6D14CC2E2859EF49003133CE /* Records.storyboard */,
+				6DF4D9C928D07DCA00F7FD4C /* CustomCell.swift */,
+				6DF4D9C728D07D9C00F7FD4C /* CustomCell.xib */,
+			);
+			path = Records_Screen;
+			sourceTree = "<group>";
+		};
+		6DF4D9CC28D0882B00F7FD4C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DF4D9C528D0770600F7FD4C /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DF4D9CD28D0886A00F7FD4C /* Settings_Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6D14CC372859EFFB003133CE /* SettingsViewController.swift */,
+				6D14CC302859EF52003133CE /* Settings.storyboard */,
+			);
+			path = Settings_Screen;
+			sourceTree = "<group>";
+		};
+		6DF4D9CE28D0888400F7FD4C /* Race_Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6D14CC332859EFE2003133CE /* RaceViewController.swift */,
+				6D14CC2C2859EF37003133CE /* Race.storyboard */,
+			);
+			path = Race_Screen;
+			sourceTree = "<group>";
+		};
+		850290BAF5579988E21C70A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D205C77E8EC207D36DAB669C /* Pods_Race_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D14CC132859EE6C003133CE /* Race_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D14CC282859EE6D003133CE /* Build configuration list for PBXNativeTarget "Race_Game" */;
+			buildPhases = (
+				7C522A46756045C099FFD3DC /* [CP] Check Pods Manifest.lock */,
+				6D14CC102859EE6C003133CE /* Sources */,
+				6D14CC112859EE6C003133CE /* Frameworks */,
+				6D14CC122859EE6C003133CE /* Resources */,
+				1CD6A8B4D0AC0FA6F2D5465F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Race_Game;
+			productName = Race_Game;
+			productReference = 6D14CC142859EE6C003133CE /* Race_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D14CC0C2859EE6C003133CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6D14CC132859EE6C003133CE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D14CC0F2859EE6C003133CE /* Build configuration list for PBXProject "Race_Game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 6D14CC0B2859EE6C003133CE;
+			productRefGroup = 6D14CC152859EE6C003133CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D14CC132859EE6C003133CE /* Race_Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D14CC122859EE6C003133CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D685ACF2864756700565726 /* Merriweather-Light.ttf in Resources */,
+				6D685AD42864756700565726 /* Merriweather-Black.ttf in Resources */,
+				6D685ACD2864756700565726 /* Merriweather-Bold.ttf in Resources */,
+				6D685AD02864756700565726 /* Merriweather-BoldItalic.ttf in Resources */,
+				6D14CC2F2859EF49003133CE /* Records.storyboard in Resources */,
+				6D685AD52864756700565726 /* Merriweather-LightItalic.ttf in Resources */,
+				6DF4D9C828D07D9C00F7FD4C /* CustomCell.xib in Resources */,
+				6D685AD32864756700565726 /* Merriweather-Italic.ttf in Resources */,
+				6D685AD12864756700565726 /* Merriweather-BlackItalic.ttf in Resources */,
+				6D685ACE2864756700565726 /* Merriweather-Regular.ttf in Resources */,
+				6D685AD22864756700565726 /* OFL.txt in Resources */,
+				6D14CC242859EE6D003133CE /* LaunchScreen.storyboard in Resources */,
+				6D14CC2D2859EF37003133CE /* Race.storyboard in Resources */,
+				6D92D6CB28B40C8D00F9C618 /* GoogleService-Info.plist in Resources */,
+				6D14CC312859EF52003133CE /* Settings.storyboard in Resources */,
+				6D216BB428A5136900D04DCF /* Localizable.strings in Resources */,
+				6D14CC212859EE6D003133CE /* Assets.xcassets in Resources */,
+				6D14CC1F2859EE6C003133CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CD6A8B4D0AC0FA6F2D5465F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Race_Game/Pods-Race_Game-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Race_Game/Pods-Race_Game-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Race_Game/Pods-Race_Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C522A46756045C099FFD3DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Race_Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D14CC102859EE6C003133CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF4D9C628D0770600F7FD4C /* ViewModel.swift in Sources */,
+				6D14CC1C2859EE6C003133CE /* OnboardingViewController.swift in Sources */,
+				6DF4D9CA28D07DCA00F7FD4C /* CustomCell.swift in Sources */,
+				6D14CC342859EFE2003133CE /* RaceViewController.swift in Sources */,
+				6D14CC182859EE6C003133CE /* AppDelegate.swift in Sources */,
+				6D14CC1A2859EE6C003133CE /* SceneDelegate.swift in Sources */,
+				6D6DA37D287DB14F009A82FB /* User.swift in Sources */,
+				6D14CC362859EFF0003133CE /* RecordsViewController.swift in Sources */,
+				6D14CC382859EFFB003133CE /* SettingsViewController.swift in Sources */,
+				6D3BF407287CC00D00A3F819 /* AllSettings.swift in Sources */,
+				6DFEA0DE287F18DB00389284 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D14CC1D2859EE6C003133CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D14CC1E2859EE6C003133CE /* Base */,
+				6D216BB028A5135400D04DCF /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D14CC222859EE6D003133CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D14CC232859EE6D003133CE /* Base */,
+				6D216BB128A5135400D04DCF /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6D216BB628A5136900D04DCF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D216BB528A5136900D04DCF /* en */,
+				6D216BB728A5136C00D04DCF /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D14CC262859EE6D003133CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D14CC272859EE6D003133CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D14CC292859EE6D003133CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F758927210E754A802CBE5 /* Pods-Race_Game.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = G7XKHBTD53;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Race_Game/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Pishchugin.Race-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D14CC2A2859EE6D003133CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB10B7E05D84C9D1025A8E42 /* Pods-Race_Game.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = G7XKHBTD53;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Race_Game/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Pishchugin.Race-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D14CC0F2859EE6C003133CE /* Build configuration list for PBXProject "Race_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D14CC262859EE6D003133CE /* Debug */,
+				6D14CC272859EE6D003133CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D14CC282859EE6D003133CE /* Build configuration list for PBXNativeTarget "Race_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D14CC292859EE6D003133CE /* Debug */,
+				6D14CC2A2859EE6D003133CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D14CC0C2859EE6C003133CE /* Project object */;
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" id="Y6W-OH-hqX" customClass="SettingsViewController" customModule="Race_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="IYn-vW-bMG">
+                                <rect key="frame" x="30" y="500" width="330" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grk-KT-qLb">
+                                        <rect key="frame" x="0.0" y="0.0" width="145" height="100"/>
+                                        <color key="backgroundColor" name="colorGreen"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Car color"/>
+                                        <connections>
+                                            <action selector="carColorButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="WBf-oa-hli"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLz-EZ-i2I">
+                                        <rect key="frame" x="185" y="0.0" width="145" height="100"/>
+                                        <color key="backgroundColor" name="colorGreen"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Barrier"/>
+                                        <connections>
+                                            <action selector="barrierButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="m8q-B2-l03"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Ak7-5X-W1q"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mfo-hM-L03">
+                                <rect key="frame" x="30" y="670" width="330" height="100"/>
+                                <color key="backgroundColor" name="colorGreen"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="SXk-15-DBN"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Speed"/>
+                                <connections>
+                                    <action selector="speedButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Usz-jY-Iba"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IYn-vW-bMG" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="44V-z4-cUd"/>
+                            <constraint firstItem="Mfo-hM-L03" firstAttribute="top" secondItem="IYn-vW-bMG" secondAttribute="bottom" constant="70" id="AmC-6M-kLi"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Mfo-hM-L03" secondAttribute="bottom" constant="40" id="R5O-Ba-hgV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="IYn-vW-bMG" secondAttribute="trailing" constant="30" id="eIc-gh-avD"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Mfo-hM-L03" secondAttribute="trailing" constant="30" id="kfb-N6-fXh"/>
+                            <constraint firstItem="Mfo-hM-L03" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="uVd-Hh-5Ay"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barrierButtonLabel" destination="RLz-EZ-i2I" id="F2S-Js-406"/>
+                        <outlet property="carColorButtonLabel" destination="grk-KT-qLb" id="7Tc-jG-Jah"/>
+                        <outlet property="speedButtonLabel" destination="Mfo-hM-L03" id="rJM-6Z-j1G"/>
+                        <outletCollection property="buttonsLabel" destination="grk-KT-qLb" collectionClass="NSMutableArray" id="ZbQ-P1-vCJ"/>
+                        <outletCollection property="buttonsLabel" destination="RLz-EZ-i2I" collectionClass="NSMutableArray" id="7P8-Ug-WI4"/>
+                        <outletCollection property="buttonsLabel" destination="Mfo-hM-L03" collectionClass="NSMutableArray" id="3Tw-CM-ysc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.46153846153845" y="97.393364928909946"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="colorGreen">
+            <color red="0.43999999761581421" green="0.73000001907348633" blue="0.61000001430511475" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  Race_Game
+
+  Created by Nikita Pishchugin on 11.08.2022.
+  
+*/
+
+"recordsButtonKey" = "Рекорды";
+"settingsButtonKey" = "Настройки";
+"raceButtonKey" = "Начать";
+
+"scoreLabelKey" = "Итоговый результат";
+"scoreLabelTotalKey" = "Итоговый";
+"scoreLabelScoreKey" = "результат";
+
+"alertMessageKey" = "Введите ваше имя";
+"alertSubmitKey" = "Подтвердить";
+"alertCancelKey" = "Отменить";
+
+"carColorButtonLabelKey" = "Цвет машины";
+"barrierButtonLabelKey" = "Препятствие";
+"speedButtonLabelKey" = "Скорость";
+
+"defaultWordKey" = "По умолчанию";
+
+"carColorButtonAlertMessageKey" = "Выберите цвет машины";
+"carColorButtonAlertSecondActionKey" = "Красный";
+"carColorButtonAlertThirdActionKey" = "Голубой";
+
+"barrierButtonAlertMessageKey" = "Выберите препятстие";
+"barrierButtonAlertSecondActionKey" = "Барьер";
+
+"speedButtonAlertMessageKey" = "Выберите скорость";
+"speedButtonAlertSecondActionKey" = "Медленнее";
